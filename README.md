@@ -26,12 +26,19 @@ Main files used:
 
 ## Project Structure
 home-credit-default-risk/
+
 ├─ data/ # Kaggle CSVs (not uploaded to GitHub)
+
 ├─ draft/ # Previous uncleaned code
+
 ├─ notebooks/
+
 │ ├─ 01_baseline_restructured.ipynb
+
 │ ├─ 02_modeling_refined.ipynb
+
 ├─ outputs/ # exported predictions / dashboard-ready CSVs
+
 └─ README.md
 
 ---
@@ -90,4 +97,5 @@ This suggests the feature space with a small set of high-information features is
 1. Download the dataset from Kaggle and place CSV files in `data/`
 2. Create a Python environment and install dependencies:
 ```bash
+
 pip install pandas numpy scikit-learn matplotlib seaborn lightgbm
